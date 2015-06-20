@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Jun13</string>
+
+        <string name="action_settings">Settings</string>
+        <string name="face_up">Sitting Mode</string>
+        <string name="face_down">Sleeping Mode</string>
+        <string name="face_sideways">face sideways</string>
+</resources>
