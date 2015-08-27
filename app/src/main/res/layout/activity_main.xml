@@ -28,7 +28,6 @@
         tools:context=".MainActivity">
 
         <Button
-
             android:layout_width="400dip"
             android:layout_height="350dip"
             android:layout_marginLeft="50dip"
@@ -54,27 +53,5 @@
         android:max="100"
         android:progress="50"/>
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_below="@id/seekBar1"
-        android:layout_centerHorizontal="true"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:typeface="monospace"/>
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:paddingLeft="100dp"
-        android:paddingRight="100dp"
-        android:layout_marginLeft="50dp"
-        android:layout_marginRight="5dp"
-        android:layout_marginTop="3dp"
-        android:layout_marginBottom="3dp"
-        android:text="Play"
-        android:clickable="true"
-        android:gravity="center_horizontal"
-        android:textStyle="bold"
-        android:onClick="Recalculate"/>
-
-</LinearLayout>
+    </LinearLayout>
